@@ -23,14 +23,14 @@
  <p>ENV Variables:
 <?php
   $d = array('environment' => getenv("database_endpoint"));
-  echo $d
+  echo $d;
 ?>
 </p>
           
  <p>ENV Variables2:
 <?php
-  $d2 = getenv("RDS_HOSTNAME") 
-  echo $d2
+  $d2 = getenv("RDS_HOSTNAME"); 
+  echo $d2;
 ?>
 </p>
 
