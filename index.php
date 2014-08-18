@@ -29,11 +29,16 @@
           
  <p>ENV Variables2:
 <?php
-  $d2 = getenv("RDS_HOSTNAME"); 
+  $d2 = getenv("database_endpoint"); 
   echo $d2;
 ?>
 </p>
-
+ <p>ENV Variables3:
+<?php
+  $d3 = getenv("RDS_HOSTNAME"); 
+  echo $d3;
+?>
+</p>
 
   </div>
         </div>
