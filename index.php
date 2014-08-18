@@ -11,7 +11,10 @@
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
-
+<?php
+  $d = array('environment' => getenv("database_endpoint"));
+  echo $d
+?>
     <body>
         <div class="container">
             <div class="hero-unit">
