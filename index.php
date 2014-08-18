@@ -11,10 +11,7 @@
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
-<?php
-  $d = array('environment' => getenv("database_endpoint"));
-  echo $d
-?>
+
     <body>
         <div class="container">
             <div class="hero-unit">
@@ -24,6 +21,14 @@
                 <p>This host is running PHP version <?php echo phpversion(); ?>.</p>
             </div>
         </div>
+
+
+<?php
+  $d = array('environment' => getenv("database_endpoint"));
+  echo $d
+?>
+
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
